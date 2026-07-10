@@ -86,6 +86,10 @@ The datasets contain information such as:
 7. Model Evaluation
 8. Solar Power Prediction
 
+### Workflow Diagram
+
+![Project Workflow](images/workflow.png)   
+
 ---
 
 ## 📈 Exploratory Data Analysis
