@@ -155,10 +155,23 @@ The models were evaluated using:
 ```text
 solar-power-optimization/
 │
-├── final_project.ipynb
-├── README.md
-├── Plant_1_Generation_Data.csv
-└── Plant_2_Weather_Sensor_Data.csv
+├── README.md                          # Project documentation
+│
+├── data/
+│   ├── Plant_1_Generation_Data.csv
+│   └── Plant_2_Weather_Sensor_Data.csv
+│
+├── notebooks/
+│   └── Solar_Power_Generation_Prediction.ipynb
+│
+├── images/
+│   ├── ambient_temperature_distribution.png
+│   ├── ambient_temp_vs_dc_power.png
+│   ├── daily_yield_distribution.png
+│   ├── daily_yield_over_time.png
+│   ├── daywise_dc_power.png
+│   ├── power_vs_efficiency.png
+│   └── lstm_prediction.png
 ```
 
 ---
@@ -185,6 +198,50 @@ The project demonstrates the use of both traditional machine learning algorithms
 
 ---
 
+## 📷 Sample Visualizations
+
+### Ambient Temperature Distribution
+
+![Ambient Temperature Distribution](images/ambient_temperature_distribution.png)
+
+---
+
+### Ambient Temperature vs DC Power
+
+![Ambient Temperature vs DC Power](images/ambient_temp_vs_dc_power.png)
+
+---
+
+### Daily Yield Distribution
+
+![Daily Yield Distribution](images/daily_yield_distribution.png)
+
+---
+
+### Daily Yield Over Time
+
+![Daily Yield Over Time](images/daily_yield_over_time.png)
+
+---
+
+### Day-wise DC Power
+
+![Day-wise DC Power](images/daywise_dc_power.png)
+
+---
+
+### Power vs Efficiency
+
+![Power vs Efficiency](images/power_vs_efficiency.png)
+
+---
+
+### LSTM Prediction
+
+![LSTM Prediction](images/lstm_prediction.png)
+
+---
+
 ## 🙏 Acknowledgements
 
 - Kaggle for providing the dataset.
@@ -201,3 +258,5 @@ The project demonstrates the use of both traditional machine learning algorithms
 B.Tech Computer Science & Engineering (Artificial Intelligence & Machine Learning)
 
 GitHub: https://github.com/Arghya-Biswas
+
+
